@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#main .circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+     /* background-color: #fff;  */
+    
+}
+.circle:nth-child(1){
+    background-color: red;
+    animation: red1 0.4s linear 2s;
+
+}
+.circle:nth-child(2){
+    background-color: green;
+    animation: green1 0.4s linear 3s;
+
+}
+.circle:nth-child(3){
+    background-color: yellow;
+    animation: yellow1 0.4s linear 4s;
+
+}
+@keyframes red1{
+    0%{
+        /* background-color: #fff; */
+        transform: scale(0.2);
+        background-color: white;
+    }
+    100%{
+        transform: (1.2);
+        background-color: red;
+    }
+}
+@keyframes green1{
+    0%{
+         transform: scale(0.2);       
+        background-color: #fff;
+    }
+    100%{
+        transform: (1.2);
+        background-color: green;
+    }
+}
+@keyframes yellow1{
+    0%{
+        transform: scale(0.2);
+        background-color: #fff;
+    }
+    100%{
+        transform: (1.2);
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,433 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+}
+#main #page1{
+  height: 100%;
+  width: 100%;
+  background-color: #FEF4EA;
+}
+#page1 #nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+#navleft{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+#navleft svg{
+  height: 50px;
+  width: 50px;
+}
+#navright{ 
+    font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 10px;
+  font-weight: 100;
+}
+#navright select{
+    font-weight: 100;
+    font-size: 20px;
+    height: 40px;
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    background-color: #FEF4EA;
+}
+#navright svg{
+  height: 40px;
+  width: 40px;
+}
+#page1 #container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#container #containerleft{
+    height: 100%;
+    width: 55%;
+    /* background-color: red ; */
+    padding-top: 13%;
+    padding-left: 8%;
+}
+#containerleft h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(98, 20, 20);
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 100%;
+}
+#containerleft p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+#containerleft #btn{
+  display: flex;
+  height: 50px;
+  text-align: center;
+  gap: 60px;
+}
+#btn button{
+  color: white;
+  border: none;
+  background-color: rgb(218, 149, 154);
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 0px 35px;
+}
+#container #containerright{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(150, 105, 105); */
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    gap: 20px;
+}
+#containerright #box{
+    height: 150px;
+    width: 50px;
+    margin-top: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#box .circle{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: black;
+}
+#box .circle:nth-child(1){
+    background-color: rgba(253, 215, 190, 0.997);
+}
+#box .circle:nth-child(2){
+    background-color: rgb(218, 149, 154);
+}
+#box .circle:nth-child(3){
+    background-color: rgb(98, 20, 20);
+}
+#containerright img{
+    height: 60%;
+    width: 60%;
+    margin-top: -20%;
+    border-radius:145px 35px 125px 0;
+}
+.page-curve {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    line-height: 0;
+    position: relative;
+    margin-top: -50px;
+}
+.page-curve svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#main #page2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+#page2 #containerleft1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+#containerleft1 #box1{
+    position: relative;
+    height: 150px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    gap: 5px;
+    left: 4%;
+}
+#box1 .circle1{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+#box1 .circle1:nth-child(1){
+    background-color: rgba(253, 215, 190, 0.997);
+}
+#box1 .circle1:nth-child(2){
+    background-color: rgb(218, 149, 154);
+}
+#box1 .circle1:nth-child(3){
+    background-color: rgb(98, 20, 20);
+}
+#containerleft1 img{
+    height: 60%;
+    width: 60%;
+    border-radius:145px 35px 125px 0;
+}
+#page2 #containerright1{
+    padding-top: 8%;
+}
+#containerright1 h1{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(98, 20, 20);
+}
+#containerright1 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#containerright1 #boxbtn{
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 4%;
+}
+#boxbtn .Box{
+    height: 80%;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 30px 80px 15px 0px;
+    box-shadow: 5px 5px 10px beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#boxbtn .Box:nth-child(1){
+    color: white;
+    font-size: 40px;
+    background-color: rgb(218, 149, 154);
+}
+#boxbtn .Box:nth-child(2){
+    color:  rgb(98, 20, 20);
+    background-color: rgb(240, 240, 213);
+}
+#boxbtn .Box:nth-child(3){
+    color: rgb(98, 20, 20);
+    background-color: rgb(240, 240, 214);
+}
+#main #page3{
+  height: 100%;
+  width: 100%;
+  background-color: #FEF4EA;
+  display: flex;
+  padding-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+}
+#page3container{
+    height: 300px;
+    width: 70%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#page3container .page3Box{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: black; */
+    gap: 10px;
+
+}
+.page3Box #button svg{
+    height: 30%;
+    width: 30%;
+    
+
+}
+.page3Box svg{
+    height: 15%;
+    width: 15%;
+}
+.page3Box  #button{
+    /* background-color: red; */
+    width: 70%;
+    padding: 0px 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #601d1d;
+
+}
+#page3 h2{
+    font-size: 130px;
+    color: #601d1d;
+    opacity: 0.05;
+
+}
+#heading h1{
+    font-size: 40px;
+    position: relative;
+    top: -270%;
+}
+.page3Box svg,h1{
+    color: #601d29;
+}
+
+#page3container .page3Box:nth-child(2){
+    background-color:#d28e92;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+
+.page3Box #h1,#svg,#p{
+    color: white;
+}
+
+#main #page4{
+  height: 100%;
+  width: 100%;
+  background-color: #FEF4EA;
+  
+}
+#page4container #page4containerleft{
+    height: 100%;
+    width: 55%;
+    padding-top: 13%;
+    padding-left: 8%;
+
+}
+#page4containerleft h1{
+     font-family: 'Times New Roman', Times, serif;
+    color: rgb(98, 20, 20);
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 100%;
+
+}
+#page4containerleft p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+}
+#page4containerleft h2{
+    font-size: 130px;
+    color: #601d1d;
+    opacity: 0.05;
+}
+#page4heading h1{
+    font-size: 40px;
+    position: relative;
+    margin-top: -8%;
+}
+#line .line{ 
+    height: 20px; 
+    width: 73%;
+    background-color: white;
+    margin-top: 4%;
+    /* border-radius: 50px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+#line .linemiddle{
+    height: 20px; 
+    width: 73%;
+    background-color: white;
+    margin-top: 3%;
+    /* border-radius: 50px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+#line .linebottom{
+    height: 20px; 
+    width: 73%;
+    background-color: white;
+    margin-top: 3%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+ button{
+    height: 50px;
+     width: 150px; 
+     margin-top: 5%;
+    /* display: flex; */
+    text-align: center;
+    color: white;
+  border: none;
+  background-color: rgb(218, 149, 154);
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 0px 35px;
+}
+#page4container #page4containerright{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(150, 105, 105); */
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    gap: 20px;
+} 
+#page4containerright #box{
+    height: 150px;
+    width: 50px;
+    margin-top: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#box .circle{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: black;
+}
+#box .circle:nth-child(1){
+    background-color: rgba(253, 215, 190, 0.997);
+}
+#box .circle:nth-child(2){
+    background-color: rgb(218, 149, 154);
+}
+#box .circle:nth-child(3){
+    background-color: rgb(98, 20, 20);
+}
+#pagecontainerright img{
+    height: 60%;
+    width: 60%;
+    margin-top: -20%;
+    border-radius:145px 35px 125px 0;
+}
+
+ 
